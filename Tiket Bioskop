@@ -1,0 +1,51 @@
+public class tiketBioskop {
+	private int teather, hargaTiket, banyakTiket, bayar, kembalian;
+	private String jam, namaBioskop, tanggal, film, genre, seat;
+	public tiketBioskop (String jam, int teather, int hargaTiket, int banyakTiket, int bayar, int kembalian, String namaBioskop, String tanggal, String film, String genre, String seat){
+		this.namaBioskop = namaBioskop;
+		this.tanggal = tanggal;
+		this.jam = jam;
+		this.film = film;
+		this.genre = genre;
+		this.seat = seat;
+		this.teather = teather;
+		this.hargaTiket = hargaTiket;
+		this.banyakTiket = banyakTiket;
+		this.bayar = bayar;
+		this.kembalian = kembalian;		
+	}
+	public String NamaBioskop(){
+		return namaBioskop;
+	}
+	public String Tanggal(){
+		return tanggal;
+	}
+	public String Jam(){
+		return jam;
+	}
+	public String Film(){
+		return film;
+	}
+	public String Genre(){
+		return genre;
+	}
+	public String Seat(){
+		return seat;
+	}
+	public int Teather(){
+		return teather;
+	}
+	public int HargaTiket(){
+		return hargaTiket;
+	}
+	public int BanyakTiket(){
+		return banyakTiket;
+	}
+	public int Bayar(){
+		return bayar;
+	}
+	public int Kembalian(){
+		return kembalian;
+	}
+
+}
